@@ -2,4 +2,11 @@
   background-color: #79797f;
   width: 150px;
   height: 150px;
+  position: relative;
+  transition: left 1s ease-out;
+  left: 0;
+}
+
+.box:hover {
+  left: 50px;
 }
